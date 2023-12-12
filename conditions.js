@@ -53,3 +53,38 @@ console.log("****** CONDITIONS *******");
 // if (result) {
 //   console.log(`Your score:${result}`)
 // }
+
+// //? ORNEK2: console'dan 3 tamsayi alarak bunlarin en buyugunu
+// //? yazdiriniz.
+
+// const n1 = +prompt("Num1:")
+// const n2 = +prompt("Num2:")
+// const n3 = +prompt("Num3:")
+
+// //* 1.YONTEM
+// //? nested if
+// // if (n1 > n2) {
+// //   if (n1 > n3) {
+// //     console.log("Biggest:", n1)
+// //   }
+// // }
+
+// //? kosullarin logical operatorler yardimiyla birleştirilmesi
+// if (n1 >= n2 && n1 >= n3) {
+//   console.log("Biggest:", n1)
+// } else if (n2 >= n1 && n2 >= n3) {
+//   console.log("Biggest:", n2)
+// } else if (n3 >= n1 && n3 >= n2) {
+//   console.log("Biggest:", n3)
+// }
+
+// //* 2.YONTEM
+// let biggest = n1
+
+// if (n2 >= biggest) {
+//   biggest = n2
+// }
+// if (n3 >= biggest) {
+//   biggest = n3
+// }
+// console.log(`${biggest} is biggest`)
