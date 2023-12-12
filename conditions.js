@@ -88,3 +88,34 @@ console.log("****** CONDITIONS *******");
 //   biggest = n3
 // }
 // console.log(`${biggest} is biggest`)
+
+//**************** TERNARY *******************
+
+// const grade1 = prompt("Please enter your grade:")
+
+// grade1 >= 50 ? console.log("SUCCEED") : console.log("FAILED")
+// const score = grade1 >= 50 ? "PASSED" : "FAILED"
+// console.log(score)
+
+// //? tek durumlu kosullandirmada da mecburen else yapisi (: ve sonrasi) kullanilmak zorundadir.
+// const score1 = grade1 >= 50 ? "SUCCEED" : ""
+// console.log(score1)
+
+// //? Nested ternary yazmak aslinda anlasilabilirligi azaltiyor. Bu sebeple, 2 durum var ise
+// //? Ternary kullanmak daha mantiklidir
+// const speed = 110
+
+// speed > 120
+//   ? console.log("Speedy")
+//   : speed >= 90
+//   ? console.log("Normal")
+//   : console.log("Low Speed")
+
+// //? ayni örneğin if-else ile yapilmasi
+// if (speed > 120) {
+//   console.log("Speedy")
+// } else if (speed >= 90) {
+//   console.log("Normal")
+// } else {
+//   console.log("Low Speed")
+// }
