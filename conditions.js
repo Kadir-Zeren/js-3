@@ -119,3 +119,25 @@ console.log("****** CONDITIONS *******");
 // } else {
 //   console.log("Low Speed")
 // }
+
+//**************** SHORT-CIRCUIT *******************
+
+const age = 18;
+
+let description = "";
+//? if-else
+// if (age >= 18) {
+//   description = "Adult"
+// }
+
+//? Ternary
+// description = age >= 18 ? "Adult" : ""
+
+//? Short-Circuit (Tek bir durum var ise short-circuit yontemi daha kisa oluyor)
+//* age 18'e eşit veya daha büyükse (true) description'a Adult aktar aksi takdirde hiç bir şey yapma
+age >= 18 && (description = "Adult");
+
+//* age 18'e eşit veya daha büyük değilse (false) description'a Adult aktar aksi takdirde hiç bir şey yapma
+age < 18 || (description = "Adult");
+
+console.log(description);
